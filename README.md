@@ -62,10 +62,10 @@
 <h5>View: 모델에 담겨 있는 데이터를 화면에 출력 & HTML 생성</h5>
 <br>
 <h5>작동 과정</h5>
-- Controller가 서비스 or 레포지토리를 호출하여 비지니스 로직 수행<br>
-- Model에 해당 데이터 전달 & Model이 데이터 읽음<br>
-- Controller가 View에게 신호하여 View가 Model을 받아옴<br>
-- View가 Model의 데이터를 참고하여 화면에 View를 보여줌(HTML 생성)
+<h6>Controller가 서비스 or 레포지토리를 호출하여 비지니스 로직 수행</h6>
+<h6>Model에 해당 데이터 전달 & Model이 데이터 읽음</h6>
+<h6>Controller가 View에게 신호하여 View가 Model을 받아옴</h6>
+<h6>View가 Model의 데이터를 참고하여 화면에 View를 보여줌(HTML 생성)</h6>
 <br>
 <h4>특징</h4>
 <br>
