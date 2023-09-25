@@ -2,7 +2,6 @@
 <%@ page import="hello.servlet.domain.member.Member" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    // request,
     // request, response 사용 가능
     MemberRepository memberRepository = MemberRepository.getInstance();
     System.out.println("save.jsp");
