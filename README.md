@@ -137,3 +137,23 @@
 <h5>5. 뷰 리졸버 호출: 뷰 리졸버를 통해 뷰를 찾은 후 이를 반환 </h5>
 <h5>6. view 렌더링</h5>
 <br>
+
+<h4>●특징</h4>
+<h5>ModelAndView가 아닌 String을 반환하여도 view로 인식 가능 </h5>
+<h5>Model 파라미터를 이용 & 뷰의 논리 이름 직접 반환 가능 </h5>
+<h5>@RequestParam을 사용하여 요청 파라미터를 받음 </h5>
+<br>
+
+<h4>●@RequestMapping</h4>
+<h5>RequestMappingHandlerMapping은 @RequestMapping or @Controller가 클래스 레벨에 있다면 매핑 정보로 인식</h5>
+<h5>가장 우선순위가 높은 핸들러 매핑과 핸들러 어댑터 보유 </h5>
+<h5>실무에서 99.9% 이상 이 방식의 컨트롤러를 사용 </h5>
+<h5>요청 정보를 매핑한 후 해당 URL 호출 시 이 메서드가 호출되며 메서드 이름은 상관 X </h5>
+<h5>메서드 단위이므로 컨트롤러 클래스의 통합 및 조합 가능 </h5>
+<h5>Http Method도 함께 구분 가능 </h5>
+<br>
+
+<h4>●@Controller</h4>
+<h5>스프링이 자동으로 스프링 빈으로 등록함 </h5>
+<h5>스프링 MVC에서 애노테이션 기반 컨트롤러로 인식 </h5>
+<hr>
